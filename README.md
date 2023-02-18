@@ -2,6 +2,6 @@
 ## Хакатон: Молодежный Бит
 ### Кейс: Молодёжный туризм
 
-A new Flutter project.
+Mobile Flutter application.
 
 
