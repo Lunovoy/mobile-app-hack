@@ -19,7 +19,7 @@ class SignUpPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
+            children: const [
               SizedBox(height: 20),
               AuthImageWidget(),
               SizedBox(height: 40),

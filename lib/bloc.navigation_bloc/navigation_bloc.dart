@@ -27,25 +27,25 @@ class NavigationBloc extends Bloc<NavigationEvents, NavigationStates> {
   Stream<NavigationStates> mapEventToState(NavigationEvents event) async* {
     switch (event) {
       case NavigationEvents.MyAccountClickedEvent:
-        yield MyAccountPage();
+        yield const MyAccountPage();
         break;
       case NavigationEvents.HomePageClickedEvent:
-        yield StartPage();
+        yield const StartPage();
         break;
       case NavigationEvents.EventsClickedEvent:
-        yield EventsPage();
+        yield const EventsPage();
         break;
       case NavigationEvents.ScienceClickedEvent:
-        yield SciencePage();
+        yield const SciencePage();
         break;
       case NavigationEvents.FavoriteClickedEvent:
-        yield FavoritesPage();
+        yield const FavoritesPage();
         break;
       case NavigationEvents.RequestsClickedEvent:
-        yield RequestPage();
+        yield const RequestPage();
         break;
       case NavigationEvents.NotificationsClickedEvent:
-        yield NotificationPage();
+        yield const NotificationPage();
         break;
 
       default:

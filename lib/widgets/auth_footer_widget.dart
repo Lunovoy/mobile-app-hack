@@ -32,33 +32,9 @@ class AuthFooterWidget extends StatelessWidget {
               TextSpan(
                   text: eventText,
                   recognizer: _onPressed,
-                  style: TextStyle(color: AppColors.accent)),
+                  style: const TextStyle(color: AppColors.accent)),
             ],
           )),
     );
-
-    // return Padding(
-    //   padding: const EdgeInsets.symmetric(horizontal: 30),
-    //   child: Center(
-    //     child: Wrap(
-    //       runAlignment: WrapAlignment.center,
-    //       alignment: WrapAlignment.center,
-    //       crossAxisAlignment: WrapCrossAlignment.center,
-    //       children: [
-    //         Text(
-    //           commonText,
-    //           style: const TextStyle(color: AppColors.black, fontSize: 20),
-    //         ),
-    //         GestureDetector(
-    //           onTap: _onPressed,
-    //           child: Text(
-    //             eventText,
-    //             style: const TextStyle(color: AppColors.accent, fontSize: 20),
-    //           ),
-    //         )
-    //       ],
-    //     ),
-    //   ),
-    // );
   }
 }

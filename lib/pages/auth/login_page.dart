@@ -11,10 +11,6 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    void _onPressedLogin() {
-      // Navigator.pushNamed(context, '/signup');
-    }
-
     return SafeArea(
       child: Scaffold(
         backgroundColor: AppColors.background,
@@ -22,7 +18,7 @@ class LoginPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
+            children: const [
               SizedBox(height: 20),
               AuthImageWidget(),
               SizedBox(height: 40),

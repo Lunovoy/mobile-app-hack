@@ -7,7 +7,7 @@ class MyAccountPage extends StatelessWidget with NavigationStates {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
+    return const SafeArea(
         child: Scaffold(
       backgroundColor: Colors.teal,
       body: Center(

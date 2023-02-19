@@ -21,7 +21,7 @@ class MenuBttn extends StatelessWidget {
         margin: EdgeInsets.only(left: 16, top: 10),
         height: 40,
         width: 40,
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           color: Colors.white,
           shape: BoxShape.circle,
           boxShadow: [
